@@ -1,6 +1,6 @@
-# HomePage-2016
+# HomePage 2014
 
-Simple website I made in 2014.
+Simple website I made in 2014: https://semperdecus.github.io/HomePage-2014/index2.html
 
 *Features*
 
