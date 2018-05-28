@@ -41,7 +41,7 @@ top:0px;
   height: 27px;
   width: 100%;
   padding: 0 0px 0 10px;
-  background: white url("https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/search.png") 270px 6px no-repeat;
+  background: white url("https:/semperdecus.github.io/HomePage-2014/images/search.png") 270px 6px no-repeat;
   border: 2px solid;
   border-color: #7a7a7a;
   	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
@@ -196,7 +196,7 @@ li a:hover {
 }
 
 .link1 {
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/calendaricon.png);
+	background-image: url(https:/semperdecus.github.io/HomePage-2014/images/calendaricon.png);
 	background-size: 43px 48px;
     background-repeat: no-repeat;
 	height: 48px;
@@ -208,7 +208,7 @@ li a:hover {
 }
 
 .link2 {
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/bingoicon.png);
+	background-image: url(https:/semperdecus.github.io/HomePage-2014/images/bingoicon.png);
 	background-size: 43px 48px;
     background-repeat: no-repeat;
 	height: 48px;
@@ -244,7 +244,7 @@ li a:hover {
 }
 
 .link5 {
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/listicon.png);
+	background-image: url(https:/semperdecus.github.io/HomePage-2014/images/listicon.png);
 	background-size: 43px 48px;
     background-repeat: no-repeat;
 	height: 48px;
@@ -268,7 +268,7 @@ li a:hover {
 }
 
 .link7 {
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/cookbookicon.png);
+	background-image: url(https:/semperdecus.github.io/HomePage-2014/images/cookbookicon.png);
 	background-size: 43px 48px;
     background-repeat: no-repeat;
 	height: 48px;
@@ -281,14 +281,14 @@ li a:hover {
 
 .link1:hover {
 	background: #ddebf7;
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/calendaricon.png);
+	background-image: url(https:/semperdecus.github.io/HomePage-2014/images/calendaricon.png);
 	background-size: 43px 48px;
     background-repeat: no-repeat;
 }
 
 .link2:hover {
 	background: #ddebf7;
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/bingoicon.png);
+	background-image: url(https:/semperdecus.github.io/HomePage-2014/images/bingoicon.png);
 	background-size: 43px 48px;
     background-repeat: no-repeat;
 }
@@ -309,7 +309,7 @@ li a:hover {
 
 .link5:hover {
 	background: #ddebf7;
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/listicon.png);
+	background-image: url(https:/semperdecus.github.io/HomePage-2014/images/listicon.png);
 	background-size: 43px 48px;
     background-repeat: no-repeat;
 }
@@ -323,7 +323,7 @@ li a:hover {
 
 .link7:hover {
 	background: #ddebf7;
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/cookbookicon.png);
+	background-image: url(https:/semperdecus.github.io/HomePage-2014/images/cookbookicon.png);
 	background-size: 43px 48px;
     background-repeat: no-repeat;
 }
