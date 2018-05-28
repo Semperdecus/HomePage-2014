@@ -41,7 +41,7 @@ top:0px;
   height: 27px;
   width: 100%;
   padding: 0 0px 0 10px;
-  background: white url("https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/search.png") 270px 6px no-repeat;
+  background: white url("/HomePage-2014/images/search.png") 270px 6px no-repeat;
   border: 2px solid;
   border-color: #7a7a7a;
   	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
@@ -95,7 +95,7 @@ h3{
 }
 
 .backbtn {
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/back.png);
+	background-image: url(/HomePage-2014/back.png);
 	background-size: 43px 48px;
 	background-repeat: no-repeat;
 	height: 48px;
@@ -108,13 +108,13 @@ h3{
 
 .backbtn:hover{
 	background: #ddebf7;
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/back.png);
+	background-image: url(/HomePage-2014/images/back.png);
 	background-size: 43px 48px;
 	background-repeat: no-repeat;
 }
 
 .btnsave {
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/download.png);
+	background-image: url(/HomePage-2014/images/download.png);
 	background-size: 43px 48px;
 	background-repeat: no-repeat;
 	height: 48px;
@@ -127,13 +127,13 @@ h3{
 
 .btnsave:hover{
 	background: #ddebf7;
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/download.png);
+	background-image: url(/HomePage-2014/images/download.png);
 	background-size: 43px 48px;
 	background-repeat: no-repeat;
 }
 
 .btnload {
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/upload.png);
+	background-image: url(/HomePage-2014/images/upload.png);
 	background-size: 43px 48px;
 	background-repeat: no-repeat;
 	height: 48px;
@@ -146,7 +146,7 @@ h3{
 
 .btnload:hover{
 	background: #ddebf7;
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/upload.png);
+	background-image: url(/HomePage-2014/images/upload.png);
 	background-size: 43px 48px;
 	background-repeat: no-repeat;
 }
@@ -213,7 +213,7 @@ input[type="checkbox"] {
     z-index:-1;
 }
 input[type="checkbox"]:checked + label{
-	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/backgroundtd.png);
+	background-image: url(/HomePage-2014/images/backgroundtd.png);
 	display: block;
 	vertical-align: center;
 	height:140px;
