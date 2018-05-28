@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Runescape War Videos</title>
+    <link rel="icon" type="image/png" href="https://dl.dropboxusercontent.com/u/41845835/homepage/images/favicon.png" />
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/warvideos.js"></script>
+    <script>
+	function goBack() {
+		window.history.back();
+	}
+	</script>
+    
+    <style>
+	.backbtn {
+		background-image: url(https://dl.dropboxusercontent.com/u/41845835/back.png);
+		background-size: 43px 48px;
+		background-repeat: no-repeat;
+		height: 48px;
+		width:320px; 
+		left: 0px;
+		top: 24px;
+		position:fixed;
+		cursor:default;
+	}
+	
+	.backbtn:hover{
+		background: #ddebf7;
+		background-image: url(https://dl.dropboxusercontent.com/u/41845835/back.png);
+		background-size: 43px 48px;
+		background-repeat: no-repeat;
+	}
+	
+	.loop2 {
+		height: 48px;
+		width:320px; 
+		left: 0px;;
+		top: 72px;
+		position:fixed;
+		cursor:default;
+	}
+	
+	.loop2:hover {
+		background: #ddebf7;
+		z-index:0;
+	}
+	
+	.loop3 {
+		height: 13px;
+		width:13px; 
+		top: 86px;
+		left: 10px;
+		position:fixed;
+		cursor:default;
+		z-index: 1;
+	}
+	
+	.button{
+		left: 12px;
+		top: 126px;
+		position:fixed;
+		cursor:default;
+		height:1.5em;
+	}
+
+	body {
+	  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+		font-size: 15px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 20px;
+		background: #ffffff;
+		left:320px;
+	}
+	
+	h5{
+		font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+		font-size: 18px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: lighter;
+		vertical-align:central;
+		margin-left: 48px;
+		margin-top: 12px;
+	}
+	
+	.container-left{
+		width:320px; 
+		height: 100%;
+		background: #f2f2f2; 
+		position:fixed;
+		padding:-10px,-10px,0,0;
+		left:0px;
+		top:0px;
+	}
+	
+	.main{
+		width: auto; 
+		height: 100%;
+		margin-left: 355px;
+		margin-top: 24px;
+		margin-right: 100px;
+	}
+
+	#playlist-player {
+	  width: 1280px;
+	  height: 720px;
+	  margin-top: 20px;
+	  display: block;
+	  margin-left: 0px;
+	}
+</style>
+  </head>
+  <body>
+  	<div class="container-left">
+    <a onClick="goBack()" class="backbtn"><h5>Go back</h5></a>
+    <input id="loop" type="checkbox" class="loop3"><label for="loop" class="loop2"><h5>Loop</h5></label>
+      </input> 
+      </div>
+      <div class="button">
+      <input id="shuffle-order" type="button" value="Shuffle Order" class="needs-player">
+      </input>
+      <input id="restore-order" type="button" value="Restore Order" class="needs-player">
+      </input>
+            </div>
+
+    <div class="main" style="display:block;justify-content:center;align-items:center;">    
+    <div id="playlist-player"></div>
+    </div>
+  </body>
+</html>

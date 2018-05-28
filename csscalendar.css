@@ -1,0 +1,228 @@
+body{
+    background: #fff;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+a {
+color: inherit;
+	text-decoration: none;
+}
+
+p {
+font-size:-8px;	
+}
+
+.container-left{
+width:320px; 
+height: 100%;
+background: #f2f2f2; 
+position:fixed;
+padding:-10px,-10px,0,0;
+left:0px;
+top:0px;
+}
+
+.search {
+  position: relative;
+  margin: auto auto;
+  top: 2.5%;
+/*  12px;*/  
+  width: 281px;
+  height: 27px;
+  left: -9px;
+  
+}
+.search input {
+  height: 27px;
+  width: 100%;
+  padding: 0 0px 0 10px;
+  background: white url("https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/search.png") 270px 6px no-repeat;
+  border: 2px solid;
+  border-color: #7a7a7a;
+  	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+.search input:focus {
+  border-color: #3399ff;
+}
+
+
+
+.main{
+width: auto; 
+height: 100%;
+margin-left: 355px;
+margin-top: 25px;
+margin-right: 100px;
+}
+ 
+h1{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 40px;
+}
+
+h2{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 60px;
+}
+
+h3{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	font-color: #000;
+	margin-left: 6px;
+}
+
+h4{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	font-color: red;
+	margin-top:-12px;
+	margin-left: 6px;
+}
+
+h5{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	vertical-align:central;
+	margin-left: 48px;
+	margin-top: 12px;
+}
+
+.calendarbtn {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%2B.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;;
+	top: 80px;
+	position:fixed;
+	cursor:default;
+}
+
+.musicbtn {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/note.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;;
+	top: 128px;
+	position:fixed;
+	cursor:default;
+}
+
+.musicbtn2 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/note.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;;
+	top: 176px;
+	position:fixed;
+	cursor:default;
+}
+
+.musicbtn3 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/note.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;;
+	top: 224px;
+	position:fixed;
+	cursor:default;
+}
+
+.calendarbtn:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%2B.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.musicbtn:hover, .musicbtn2:hover, .musicbtn3:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/note.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.moviesbtn {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/movies.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;;
+	top: 272px;
+	position:fixed;
+	cursor:default;
+}
+
+.moviesbtn2 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/movies.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;;
+	top: 320px;
+	position:fixed;
+	cursor:default;
+}
+
+.moviesbtn:hover, .moviesbtn2:hover{
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/movies.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.novelbtn {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/lines.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;;
+	top: 368px;
+	position:fixed;
+	cursor:default;
+}
+
+.novelbtn:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/lines.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}

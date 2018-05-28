@@ -1,0 +1,165 @@
+<!DOCTYPE html> 
+<html><head>
+
+
+<meta charset='utf-8' />
+<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/csscalendar.css"/>
+
+<link rel="icon" type="image/png" href="https://dl.dropboxusercontent.com/u/41845835/homepage/images/favicon.png" />
+<title>Cardio Calendar</title>
+
+<link rel='stylesheet' href='https://dl.dropboxusercontent.com/u/41845835/homepage/lib/cupertino/jquery-ui.min.css' />
+<link href='https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/fullcalendarThemed.css' rel='stylesheet' />
+<link href='https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/fullcalendar-2.5.0/fullcalendar.print.css' rel='stylesheet' media='print' />
+<script src='https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/fullcalendar-2.5.0/lib/moment.min.js'></script>
+<script src='https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/fullcalendar-2.5.0/lib/jquery.min.js'></script>
+<script src='https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/fullcalendar-2.5.0/fullcalendar.js'></script>
+<script src='https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/fullcalendar-2.5.0/gcal.js'></script>
+<script src='https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/fullcalendar-2.5.0/lang/en-gb.js'></script>
+<script>
+$(document).ready(function() {
+	$('#calendar').fullCalendar({
+//	dayRender: function(day, element) {
+//    	element.bind('dblclick', function() {
+//    	  window.open("https://www.google.be/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCAQFjAA&url=https%3A%2F%2Fwww.google.com%2Fcalendar&ei=R9CXVYKACeWV7AazlIXQAw&usg=AFQjCNF6mWLBZboyY-wWpApOzP1H32SP1A&sig2=4DfsgdCi_WAGQv2_plue1g&bvm=bv.96952980,d.ZGU","MsgWindow", 'width=1300,height=800');
+//    	});
+//	},
+		height: 910,
+		header: {
+			left: 'prev',
+			center: 'title',
+			right: 'next'
+		},
+			
+		columnFormat: {
+            month: 'dddd'
+		},
+		
+		titleFormat: {
+			month: 'MMMM, YYYY'
+		},
+		
+		googleCalendarApiKey: 'AIzaSyBR8Ft9WDpAi1jxOmui46g9I7wYYGkVu5Y',
+		events: 'https://www.google.com/calendar/feeds/i9olufbcejsfs4f0b3bvc21lqk%40group.calendar.google.com/public/basic',
+		
+		eventClick: function(event) {
+			// opens events in a popup window
+			window.open(event.url, 'gcalevent', 'width=1300,height=800');
+			return false;
+		},
+		
+
+
+
+		
+
+	})
+});
+
+
+function newEvent() {
+window.open("https://www.google.be/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCAQFjAA&url=https%3A%2F%2Fwww.google.com%2Fcalendar&ei=R9CXVYKACeWV7AazlIXQAw&usg=AFQjCNF6mWLBZboyY-wWpApOzP1H32SP1A&sig2=4DfsgdCi_WAGQv2_plue1g&bvm=bv.96952980,d.ZGU","MsgWindow", 'width=1300,height=800');
+}
+
+
+var randomlinks=new Array()
+
+randomlinks[0]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=49047120f21005f6&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477093&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=7D4E213888CEE9B4E1B64274AD8EFC0E29D28562.B7731ED6A4657B0122B0728903DD86B536DB625E&key=lh1"
+randomlinks[1]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=9d0ef06334f3c900&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477255&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=1C47460A0984AC30D854391626727E787235F381.B1EF9D20B35DB0F364A67FC7656BF27EA57C1EC8&key=lh1"
+randomlinks[2]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=20c7e7cd762b607e&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477511&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=4AC9F0CC615AC0D17EABB83371B7FEE7255D5C07.9691DB8B0EDF87E7250254B9AB4E34056A28D881&key=lh1"
+randomlinks[3]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=71056b393cab816d&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477530&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=E94B30C7B782C4E4C66B3834F1863A47CBAE8C8.14A30C4275245F71173942DD848AE021160668D7&key=lh1"
+randomlinks[4]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=8c7a7a9f13dc5b40&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477548&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=911FBC7562C35085C07766C4A4B2E584CBADF3EE.BA5447EDE50BC7C4419B4816FCFEA1141B4A5C61&key=lh1"
+randomlinks[5]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=15b8d681efdb09a7&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477740&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=73676ED9B36C5EF20C4C3CCDDDC91E4AC81EA268.82212F139E40F722A6F02081C4BA3DAC89816C44&key=lh1"
+randomlinks[6]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=a99dee4c5e421848&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477757&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=9986FB157271E12FE94B8053DC1DA7A2EAB9AB52.36BA3857D4D8D5F0DFBDA6EFF54FE8E602A288AB&key=lh1"
+randomlinks[7]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=d565e5104a054a46&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477780&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=A6C7331D0BD381F097F748C00306DC6F6523E3AD.9EBADDD2926EED64C9984E01A0E29B07DD8420C5&key=lh1"
+randomlinks[8]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=d6553390a27a65a7&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477557&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=BA26BD45C2434A794283374677AE6E536C0A627.6D186799CBD3167A782CC7E736041F6BB661E8E1&key=lh1"
+randomlinks[9]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=5251590a3189772c&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477870&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=8981F165714EC6A3D83E07B310632E6D4FAC3F12.2DEB5F222CC5C572F0E5F6C51D53470E766B6F2B&key=lh1"
+randomlinks[10]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=8345548d2d00ce8a&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477890&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=207D2E7BB5C4847006DA31E3D47BFA2B30471325.3E935C9681E597B171DD2885FBE639C36D1E8993&key=lh1"
+randomlinks[11]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=08a400de3a6b79ec&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477912&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=1057459603CFC51BC69DB87229DD26AF230B9B7.13F1CEDC11FFCB4E3520A26A2D676682E5462C8A&key=lh1"
+randomlinks[12]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=2100a955908b506e&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477944&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=E67BBD201AD15E659472A0BE5307BAAFAEF67A6.A14D893DE1C303B0DD2D9BC015261334A6F45754&key=lh1"
+randomlinks[13]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=9a3529471235ca42&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477991&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=8901F57FC6716AF122B669E94510466E9E243715.51BA1DE42AAEFDD9DF16B7A876268EBCB0986ECF&key=lh1"
+randomlinks[14]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=9f7ec4a239ee078a&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477965&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=67955EF71CCB7679BA4D7C703C2A7E5124B74779.A59E48AF6184066033289D87A345180ABEA91804&key=lh1"
+randomlinks[15]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=24718c80476879b8&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477812&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=409D4D8244D67DDCF30EFABEEBEDC118F87A4465.C5E19FB0CA5126FE4CCB29025FC4E9152AE686A9&key=lh1"
+randomlinks[16]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=55da8ff59db8c0f8&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477805&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=3E2ACF4AF46F32EA545354DD179D32E82DCDE060.D9C0D278E6F58AE6F735C811A4F3192C50FF2E00&key=lh1"
+randomlinks[17]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=efe11a8a9bde9dcc&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478080&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=29D8A8BE8DC942C388E1732DC1CDBDA28C27E031.3C1659D43ABF1FDCEE1D1A2AD1312095B0705B65&key=lh1"
+randomlinks[18]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=09d43b2cfd5e5a07&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478099&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=AAA2A55FB94724F3C54BEEB4094397870814E04F.95DD326B3BFDBE97BF40225810FB9CE66CFD5FC0&key=lh1"
+randomlinks[19]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=f0a773223c5fcd93&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478126&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=C56F8C8D29F1AEDA21C0BF1EC57C94A4925BF796.3C54798AAFF5911A8D9EADACE460DDD34622D58F&key=lh1"
+randomlinks[20]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=a6649fcef2aacd91&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478066&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=A6AB343BB57B09C0E0AC8469CE6FD129B74F858E.47072C6E2319B98F2BF4E4D880EEDF550A9E36E9&key=lh1"
+randomlinks[21]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=2ab51ebb9555bfe5&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440477923&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=7EC75936E536B9B52DD6979607443805FFAE398D.BF8EE3D0E3D9D71F2C1D11261F6AE8B1F2910AB5&key=lh1"
+randomlinks[22]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=9f54ba857363060c&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478223&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=C51739B3D19FAA7E447CEFE4CB029BFC85D722D7.D2D30C5E75D1AAFAD261055F0841045BC027522B&key=lh1"
+randomlinks[23]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=37d69217d44cccc5&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478139&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=99B588C9FCA4B4E1FD24E0BD2290E6750F61B9F7.9990F25C87047772E9E035FC22A26FD31EF5F9B3&key=lh1"
+randomlinks[24]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=7516a428df3598b2&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478250&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=799D851C73A62E70EA278C0B193F7CA2B7B38C51.587DDEE1C9C4C70767062819DD131755F5EEF3A9&key=lh1"
+randomlinks[25]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=8623e2b8d98b19d2&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478260&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=C7D628135A551FD1DF69B3C387663A7E9160F50D.DC9C731699363500609895E2710B4FC90BDBE21E&key=lh1"
+randomlinks[26]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=b49e776703ce939c&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478312&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=BE55B52495ACE7AFCF73D45897F1BAC3D1D2E898.BB087A9ED9FF47BA84C8F1F7D33DA4FAF6398708&key=lh1"
+randomlinks[27]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=d2e55ca7821d1b17&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478325&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=41167E182E337A031683343F76FFDC78C1A26DEB.27055A0C504940CD8459184AC2238DA2A01518D5&key=lh1"
+randomlinks[28]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=6bcaaf8510ef0531&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478351&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=CDA55C6B95FD3B81A1CFCA532546FDD1C2CDCFEB.DC6A7632050C8425A51DE19801F648E18A522524&key=lh1"
+randomlinks[29]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=c2c4dabde93a64d8&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478374&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=1586179B79B997D0874A84043CD8113D61060A20.4B204227D094D25D32FC06C0A390C89ACE7F21F&key=lh1"
+randomlinks[30]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=42f839b000fbc56c&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478210&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=C95536C023E453F0A1412CF8E3D644DE6B1D6FE6.8F460E09FA6A4E1BD1A44C933A154B076C87B96B&key=lh1"
+randomlinks[31]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=f4f8d7d1017f0480&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478294&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=337B96B8B2546E830E481812EDB5190EBA57E5E5.A227D54B38ED1BCF4E5AAE17A6247F3F1BAC9B47&key=lh1"
+randomlinks[32]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=8d9834de0c1f2d9e&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478402&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=93C73DAA27F4D71F0A9744E0D1F69F83B7C2BFCA.2B429D09432DFBEE85BBC86D56700A530CA91C11&key=lh1"
+randomlinks[33]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=e027ca12c9c81d98&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478474&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=D34C3C46B721FEFCA2F27E5DAEF2EA232382BBAE.7DC677870DE4DDD18953C4E9971025DB261BFE8D&key=lh1"
+randomlinks[34]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=b5951a2cd4b2f2d8&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478499&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=1D7876CC1B0F2E7A2459AD69768E9DA843011667.3B0451652FFB48708B1C658A5D24C4F4B1C6D56E&key=lh1"
+randomlinks[35]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=cc7020f8aea35df4&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478302&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=3D58C92B08E414D30B6C7685942806EA9023A45A.275862F4EFF1033A74746A062BFAC0DAEDE4B99B&key=lh1"
+randomlinks[36]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=f4e0ab9300cb97e2&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478523&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=94B000F6BF0359D75F7FB633E127582FACDEC910.CDAF663420204DC986BB6763B8EDB53BB07D1919&key=lh1"
+randomlinks[37]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=de663223c84240b3&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478556&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=48B13F751EAA28F7100746B34121F73E64709880.BF6C0E3421A520DBF3F3F0F455414E69B1E12B1F&key=lh1"
+randomlinks[38]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=25ffc175b3ba2672&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478376&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=AA9DE6A4D946BB92FB0C61C31301F24CACDCCC9E.243A83261ACE58735D1E5424A02FB11963BEF168&key=lh1"
+randomlinks[39]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=15f1c1187d4b2f5d&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478596&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=C4DA24A55BFAFA36E2D5C4796820D6FDA7474CF1.B3143FE13781E407739371D5E972BAECB19E8995&key=lh1"
+randomlinks[40]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=3e17323b773596fd&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478611&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=18D339861F6E4CA30C0F982F425F251B9D41208F.CE021B81D65DF1EFC4BE00DA18767B21CD449E57&key=lh1"
+randomlinks[41]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=0cef8138e1763675&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478648&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=8FCB7871835AEC30921F3C31EE27AAC202FD0625.7CEA3CB627FB477D419612E0E3BA495914662823&key=lh1"
+randomlinks[42]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=85b2f4c0ba9bde4f&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478673&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=8F4E17AF868C1E73A88BFEF9E7B366778BC2EB90.C1901BE7FAB1414B137BF2644997F3A6DB463BA4&key=lh1"
+randomlinks[43]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=182d195ef2cff26d&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478622&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=123C2B52D32C5C983125DFF47C393C4FBC5AEA3D.6F62FCDFBCD62721D8E8EA0757DDE3D193BA0E6E&key=lh1"
+randomlinks[44]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=2dfb33e8b2060470&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478717&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=3E4081A4CEFF3FB204B838D34061484CBCF7BA73.D13311E1BEC36D320BDF95C78BB3F16223BB60B&key=lh1"
+randomlinks[45]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=a4eb7d1b0910f2c8&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478727&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=143F5DF84B273390AF0099B34D539D051ECB9698.2D9BDA8FDBC4FFB4F4320F115276A1E304D569FC&key=lh1"
+randomlinks[46]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=0320e35e6c2da450&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478564&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=C4F317FF9C7229162D39CEECE4F08E6178BB09DE.AE7E26809D7E047B7D6016C4640705907E6239B5&key=lh1"
+randomlinks[47]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=dbe21eb62e95fb5b&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478615&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=92B959D52E2C8D052308AAC25F75FEFFCE721F97.32608943629AF153EB2B67F572523B619F43BE92&key=lh1"
+randomlinks[48]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=dd2ca1789a62a5aa&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478579&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=714AD732FA9A0078626DB612DC597F4B8C0B0DFD.2B0BD60910581E2E23323C1EA30C66345987E428&key=lh1"
+randomlinks[49]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=c1f63c1fa4003b6d&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478603&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=2A2DC0B3AA1835E11D1290BAD6C64F31FED7E91C.B7BF0290398A3E81810891F9CDCC54E78855509B&key=lh1"
+randomlinks[50]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=445952e57e8f609c&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478855&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=CE9F0755D36605E9B0B450B8C922B87EE4CD5906.6A8B331F62FD48F9F03DF7E406BC157A35F77752&key=lh1"
+randomlinks[51]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=ca5e0a61e0409850&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478719&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=592B8866264CDD52281CEAC4825F87FD2D81BDAB.9709AEC1F228EAB3BCDB72CD67C3FD7D89C3875&key=lh1"
+randomlinks[52]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=238ca8c899e85d35&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478882&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=9F60D8E3A933C60A540232D27BAEABBD498777E9.7DB8F597CDB5DBB53A20E9C29B69BC8387A43EC3&key=lh1"
+randomlinks[53]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=6b877f589ce2b2eb&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440478954&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=F6476FEE285091570DB8F21056A68C14159D282.A1BF3FF9063321B55F68F014ADE4FF3B65CCFDD1&key=lh1"
+randomlinks[54]="https://redirector.googlevideo.com/videoplayback?requiressl=yes&id=24e6db8eb1564b7b&itag=22&source=picasa&cmo=secure_transport=yes&ip=0.0.0.0&ipbits=0&expire=1440492841&sparams=requiressl,id,itag,source,ip,ipbits,expire&signature=282B9A8FA3AB57F6EE89A922951A91DA6D698FF3.BD73A938EB92DF75CAEB2C7050E455A82989C08F&key=lh1"
+
+
+
+
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+
+
+
+</script>
+
+
+
+
+
+
+</head>
+
+<body>    
+<div class="container-left">
+        <form class="search" method="get" action="https://www.google.com/search">
+            <input type="text" name="q" placeholder="Search" >
+        </form>    
+
+        <a onclick="newEvent()" class="calendarbtn"><h5>New event</h5></a>
+		<a href="https://dl.dropboxusercontent.com/u/41845835/!!!Windows%2010%20homepage/animeopsandeds.html" class="musicbtn"><h5>Anime OPs and EDs</h5></a>
+        <a href="https://dl.dropboxusercontent.com/u/41845835/!!!Windows%2010%20homepage/lcsmusic.html" class="musicbtn2"><h5>LCS Music</h5></a>
+        <a href="https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/warvideos.html" class="musicbtn3"><h5>RS wars</h5></a>
+        <a href="https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/amvs.html" class="moviesbtn"><h5>Anime Music Videos</h5></a>
+</div>
+
+<div class="main">
+
+    <div id='calendar'></div>
+    
+    
+</div>
+ 
+</body>
+
+
+</html>

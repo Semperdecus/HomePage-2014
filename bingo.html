@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html><head>
+
+
+<meta charset='utf-8' />
+<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/bingo.css"/>
+<link rel="icon" type="image/png" href="https://dl.dropboxusercontent.com/u/41845835/homepage/images/favicon2.png" />
+<title>Bingo</title>
+
+</head>
+
+<body>    
+
+<div class="container-left">
+	<a onClick="goBack()" class="backbtn"><h5>Go back</h5></a>  
+	<a onClick="save()" class="btnsave"><h5>Save</h5></a>  
+	<a onClick="load_()" class="btnload"><h5>Load</h5></a>  
+</div>
+
+<div class="main">
+	<h1></h1>
+	<h1><center>Bingo (2016-2017)</center></h1>
+	<table class="heavyTable">
+		<tr>
+			<td id="square0"><input type="checkbox" value="chB1" id="1"><label for="1">Geld verdienen</label></td>
+			<td id="square1"><input type="checkbox" value="chB2" id="2"><label for="2">Vrijwilligers werk</label></td>
+			<td id="square2"><input type="checkbox" value="chB3" id="3"><label for="3">Een boek schrijven</label></td>
+			<td id="square3"><input type="checkbox" value="chB4" id="4"><label for="4">Convention bezoeken</label></td>
+			<td id="square4"><input type="checkbox" value="chB5" id="5"><label for="5">60 push ups</label></td>
+		</tr>
+		<tr>
+			<td id="square5"><input type="checkbox" value="chB6" id="6"><label for="6">Spel maken</label></td>
+			<td id="square6"><input type="checkbox" value="chB7" id="7"><label for="7">20km lopen</label></td>
+			<td id="square7"><input type="checkbox" value="chB8" id="8"><label for="8">Kookboek/app maken</label></td>
+			<td id="square8"><input type="checkbox" value="chB9" id="9"><label for="9">3 Goals scoren</label></td>
+			<td id="square9"><input type="checkbox" value="chB10" id="10"><label for="10">Uitgaan in eindhoven</label></td>
+		</tr>
+		<tr>
+			<td id="square10"><input type="checkbox" value="chB11" id="11"><label for="11">AMV maken</label></td>
+			<td id="square11"><input type="checkbox" value="chB12" id="12"><label for="12">2 Semesters halen</label></td>
+			<td id="free"><input type="checkbox" value="chB13" id="13"><label for="13">Animenz stuk leren</label></td>
+			<td id="square12"><input type="checkbox" value="chB14" id="14"><label for="14">Basis japans</label></td>
+			<td id="square13"><input type="checkbox" value="chB15" id="15"><label for="15"><a href="https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/bns%20bingo.html">BNS Bingo</a></label></td>
+		</tr>
+		<tr>
+			<td id="square14"><input type="checkbox" value="chB16" id="16"><label for="16">Iets organiseren</label></td>
+			<td id="square15"><input type="checkbox" value="chB17" id="17"><label for="17">Koken voor kot</label></td>
+			<td id="square16"><input type="checkbox" value="chB18" id="18"><label for="18">9/10 op toets</label></td>
+			<td id="square17"><input type="checkbox" value="chB19" id="19"><label for="19">Piano boek maken</label></td>
+			<td id="square18"><input type="checkbox" value="chB20" id="20"><label for="20">4x in 1 week fitness</label></td>
+		</tr>
+		<tr>
+			<td id="square19"><input type="checkbox" value="chB21" id="21"><label for="21">Bingo app (website)</label></td>
+			<td id="square20"><input type="checkbox" value="chB22" id="22"><label for="22">LoL platinum rank</label></td>
+			<td id="square21"><input type="checkbox" value="chB23" id="23"><label for="23">Uitgaan in Belgie</label></td>
+			<td id="square22"><input type="checkbox" value="chB24" id="24"><label for="24">3x piano uploaden</label></td>
+			<td id="square23"><input type="checkbox" value="chB25" id="25"><label for="25">4x in 1 maand voetbal</label></td>
+		</tr>
+	</table> 
+</div>
+
+ <script>
+	function goBack() {
+		window.history.back();
+	}
+	
+  	var i, checkboxes = document.querySelectorAll('input[type=checkbox]');
+	
+	function save() {
+		for (i = 0; i < checkboxes.length; i++) {
+			localStorage.setItem(checkboxes[i].value, checkboxes[i].checked); 
+		}
+		window.alert("Status saved");
+	}
+
+	function load_() {
+		for (i = 0; i < checkboxes.length; i++) {
+			checkboxes[i].checked = localStorage.getItem(checkboxes[i].value) === 'true' ? true:false;
+		}
+	} 
+</script>
+</body>
+
+</html>

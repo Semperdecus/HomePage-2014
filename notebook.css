@@ -1,0 +1,105 @@
+body{
+    background: #fff;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+.container-left{
+	width:320px; 
+	height: 100%;
+	background: #f2f2f2; 
+	position:fixed;
+	left:0px;
+	top:0px;
+}
+
+.main{
+	width: auto; 
+	height: 100%;
+	margin-left: 355px;
+	margin-top: 25px;
+	margin-right: 100px;
+}
+
+h1{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 40px;
+}
+
+h2{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 60px;
+}
+
+h3{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	font-color: #000;
+	margin-left: 6px;
+}
+
+h4{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	font-color: red;
+	margin-top:-12px;
+	margin-left: 6px;
+}
+
+.tileContainer{
+    height:315px;
+	width:212px;
+	float:left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	cursor: default;
+	transition: 0.1s ease-in-out;
+
+}
+
+.tileContainer:hover{
+	background: #e6e6e6;
+}
+
+.tileContainer:active{
+	-webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+    transform: scale(0.95);
+}
+
+.tile{
+    height:200px;   
+    width:200px;  
+    float:center;
+	background: #f2f2f2;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 6px;
+}

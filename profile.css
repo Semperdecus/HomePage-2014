@@ -1,0 +1,150 @@
+body{
+    background: #fff;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+a {
+color: inherit;
+	text-decoration: none;
+}
+
+p {
+font-size:-8px;	
+}
+
+.container-left{
+width:320px; 
+height: 100%;
+background: #f2f2f2; 
+position:fixed;
+padding:-10px,-10px,0,0;
+left:0px;
+top:0px;
+}
+
+.search {
+  position: relative;
+  margin: auto auto;
+  top: 2.5%;
+/*  12px;*/  
+  width: 281px;
+  height: 27px;
+  left: -9px;
+  
+}
+.search input {
+  height: 27px;
+  width: 100%;
+  padding: 0 0px 0 10px;
+  background: white url("https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/search.png") 270px 6px no-repeat;
+  border: 2px solid;
+  border-color: #7a7a7a;
+  	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+.search input:focus {
+  border-color: #3399ff;
+}
+
+
+
+.main{
+width: auto; 
+height: 100%;
+margin-left: 355px;
+margin-top: 25px;
+margin-right: 100px;
+
+}
+ 
+h1{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 40px;
+}
+
+h2{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 40px;
+}
+
+h3{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
+
+
+.container{
+	width:70%;
+	height: 20px;
+	display:block;
+	margin-top:5px;
+	margin-bottom: 20px;
+	
+}
+
+.progress {
+	overflow: hidden;
+	height: 20px;
+	background-color: #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	margin-bottom: 20px;
+}
+
+.container:hover{
+	box-shadow: 0 0px 2px rgba(0,0,0,0.8);
+	border-radius: 4px;
+	}
+
+.progress-bar {
+	width: 0;
+	height: 100%;
+	color: #fff;
+    text-indent: 10px;
+	background-color: #3399ff;
+}
+
+.progress-goal {
+	width: 0;
+	height: 100%;
+	color: #000;
+    text-indent: 80%;
+	background-color: #3399ff;
+}
+
+.progress-striped .progress-bar{
+			background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.8) 0%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+			background-image: linear-gradient(45deg,rgba(255,255,255,.05) 25%,transparent 2%,transparent 30%,rgba(255,255,255,.05) 50%,rgba(255,255,255,.05) 75%,transparent 75%,transparent);
+			background-size: 10px 10px;
+}
+.progress.active .progress-bar{
+	-webkit-animation: progress-bar-stripes 2s linear infinite;
+	animation: progress-bar-stripes 2s linear infinite;
+	-moz-animation: progress-bar-stripes 2s linear infinite;
+}

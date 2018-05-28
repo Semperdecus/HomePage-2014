@@ -1,0 +1,329 @@
+body{
+    background: #fff;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+a {
+color: inherit;
+	text-decoration: none;
+}
+
+p {
+font-size:-8px;	
+}
+
+.container-left{
+width:320px; 
+height: 100%;
+background: #f2f2f2; 
+position:fixed;
+padding:-10px,-10px,0,0;
+left:0px;
+top:0px;
+}
+
+.search {
+  position: relative;
+  margin: auto auto;
+  top: 2.5%;
+/*  12px;*/  
+  width: 281px;
+  height: 27px;
+  left: -9px;
+  
+}
+.search input {
+  height: 27px;
+  width: 100%;
+  padding: 0 0px 0 10px;
+  background: white url("https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/search.png") 270px 6px no-repeat;
+  border: 2px solid;
+  border-color: #7a7a7a;
+  	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+.search input:focus {
+  border-color: #3399ff;
+}
+
+
+
+.main{
+width: auto; 
+height: 100%;
+margin-left: 355px;
+margin-top: 25px;
+margin-right: 100px;
+
+}
+ 
+h1{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 40px;
+}
+
+h2{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+	margin-bottom: 60px;
+}
+
+h3{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	font-color: #000;
+	margin-left: 6px;
+}
+
+h4{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	font-color: red;
+	margin-top:-12px;
+	margin-left: 6px;
+}
+
+h5{
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	vertical-align:central;
+	margin-left: 48px;
+	margin-top: 12px;
+}
+
+.tile{
+    height:200px;   
+    width:200px;  
+    float:center;
+	background: #f2f2f2;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 6px;
+}
+
+
+.tileContainer{
+    height:315px;
+	width:212px;
+	float:left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	cursor: default;
+	transition: 0.05s ease-in-out;
+}
+
+.tileContainer:hover{
+	background: #e6e6e6;
+}
+
+.tileContainer:active{
+	-webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+    transform: scale(0.95);
+}
+
+.main-left{
+	position: fixed;
+	bottom: 48px;
+	text-align: center;
+	left: 4px;
+	width: 312px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+  /*border-bottom: 1px solid #ccc;*/
+}
+ 
+li:last-child {
+  border: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li a:hover {
+  font-size: 22px;
+}
+
+.link1 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/calendaricon.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;
+	top: 128px;
+	position:fixed;
+	cursor:default;
+}
+
+.link2 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/bingoicon.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;
+	top: 224px;
+	position:fixed;
+	cursor:default;
+}
+
+.link3 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/movies.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;
+	top: 272px;
+	position:fixed;
+	cursor:default;
+}
+
+.link4 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/picture.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;
+	top: 320px;
+	position:fixed;
+	cursor:default;
+}
+
+.link5 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/listicon.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;
+	top: 176px;
+	position:fixed;
+	cursor:default;
+}
+
+.link6 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/list.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;
+	top: 368px;
+	position:fixed;
+	cursor:default;
+}
+
+.link7 {
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/cookbookicon.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+	height: 48px;
+	width:320px; 
+	left: 0px;
+	top: 80px;
+	position:fixed;
+	cursor:default;
+}
+
+.link1:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/calendaricon.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.link2:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/bingoicon.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.link3:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/movies.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.link4:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/picture.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.link5:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/listicon.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.link6:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/list.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}
+
+.link7:hover {
+	background: #ddebf7;
+	background-image: url(https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/images/cookbookicon.png);
+	background-size: 43px 48px;
+    background-repeat: no-repeat;
+}

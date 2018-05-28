@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html><head>
+
+
+<meta charset='utf-8' />
+<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/41845835/%21%21%21Windows%2010%20homepage/bns%20bingo.css"/>
+<link rel="icon" type="image/png" href="https://dl.dropboxusercontent.com/u/41845835/homepage/images/favicon2.png" />
+<title>Bingo</title>
+
+</head>
+
+<body>    
+
+<div class="container-left">
+	<a onClick="goBack()" class="backbtn"><h5>Go back</h5></a>  
+	<a onClick="save()" class="btnsave"><h5>Save</h5></a>  
+	<a onClick="load_()" class="btnload"><h5>Load</h5></a>  
+</div>
+
+<div class="main">
+	<h1></h1>
+	<h1><center>Blade & Soul Bingo</center></h1>
+	<table class="heavyTable">
+		<tr>
+			<td id="square5"><input type="checkbox" value="chB6" id="6"><label for="6">Soulseeker/Tycoon title</label></td>
+			<td id="square6"><input type="checkbox" value="chB7" id="7"><label for="7">Master of Darkness title</label></td>
+			<td id="square7"><input type="checkbox" value="chB8" id="8"><label for="8">600 AP Alt</label></td>
+			<td id="square8"><input type="checkbox" value="chB9" id="9"><label for="9">Diamond PvP/Tag Outfit</label></td>
+		</tr>
+		<tr>
+			<td id="square10"><input type="checkbox" value="chB11" id="11"><label for="11">Top 30 PvP/Infinity</label></td>
+			<td id="square11"><input type="checkbox" value="chB12" id="12"><label for="12">800 AP Summoner</label></td>
+			<td id="free"><input type="checkbox" value="chB13" id="13"><label for="13">4000 achievement points</label></td>
+			<td id="square12"><input type="checkbox" value="chB14" id="14"><label for="14">Double agent</label></td>
+		</tr>
+		<tr>
+			<td id="square14"><input type="checkbox" value="chB16" id="16"><label for="16">Legendary soulshields</label></td>
+			<td id="square15"><input type="checkbox" value="chB17" id="17"><label for="17">Get noticed by NCSoft</label></td>
+			<td id="square16"><input type="checkbox" value="chB18" id="18"><label for="18">Legendary accessories</label></td>
+			<td id="square17"><input type="checkbox" value="chB19" id="19"><label for="19">All HM skills</label></td>
+		</tr>
+		<tr>
+			<td id="square19"><input type="checkbox" value="chB21" id="21"><label for="21">Legendary weapon (max)</label></td>
+			<td id="square20"><input type="checkbox" value="chB22" id="22"><label for="22">Crafting titles	</label></td>
+			<td id="square21"><input type="checkbox" value="chB23" id="23"><label for="23">Mad scientist title</label></td>
+			<td id="square22"><input type="checkbox" value="chB24" id="24"><label for="24">5000 gold in inventory</label></td>
+		</tr>
+	</table> 
+</div>
+
+ <script>
+	function goBack() {
+		window.history.back();
+	}
+	
+  	var i, checkboxes = document.querySelectorAll('input[type=checkbox]');
+	
+	function save() {
+		for (i = 0; i < checkboxes.length; i++) {
+			localStorage.setItem(checkboxes[i].value, checkboxes[i].checked); 
+		}
+		window.alert("Status saved");
+	}
+
+	function load_() {
+		for (i = 0; i < checkboxes.length; i++) {
+			checkboxes[i].checked = localStorage.getItem(checkboxes[i].value) === 'true' ? true:false;
+		}
+	} 
+</script>
+</body>
+
+</html>
